@@ -8,8 +8,17 @@
 }
 
 .title {
+  color: #1A237E ;
   line-height: 1.15;
   font-size: 4rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.title2 {
+  color: #1A237E ;
+  line-height: 1.15;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 100px;
 }
 
 .title a {
@@ -19,4 +28,30 @@
 
 .title a:hover, .title a:focus, .title a:active {
   text-decoration: underline;
+}
+
+.input{
+  height: 25px;
+  margin-bottom: 1vh;
+}
+
+.button{
+  visibility: hidden ;
+}
+
+.buttonVisible{
+  color: aliceblue;
+  background-color: white;
+  height: 50px;
+  border-width: 1px;
+  border-radius: 50%;
+  background-color: #1A237E ;
+}
+
+.buttonVisible:hover{
+  color: rgb(213, 232, 248);
+  background-color: #0d1674 ;
+  height: 50px;
+  border-width: 1px;
+  border-radius: 50%;
 }
